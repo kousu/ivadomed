@@ -30,7 +30,7 @@ def evaluate(bids_df, path_output, target_suffix, eval_params):
         pd.Dataframe: results for each image.
     """
     path_preds = Path(path_output, 'pred_masks')
-    logger.info('\nRun Evaluation on {}\n'.format(path_preds))
+    logger.info('\nRun Evaluations on {}\n'.format(path_preds))
 
     # OUTPUT RESULT FOLDER
     path_results = Path(path_output, 'results_eval')
