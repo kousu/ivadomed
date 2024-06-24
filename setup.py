@@ -13,7 +13,7 @@ with open(path.join(this_directory, 'README.md'), encoding='utf-8') as f:
     long_description = f.read()
 
 # Get Release version
-path_version = path.join(this_directory, 'ivadomed', 'version.txt')
+path_version = path.join(this_directory, 'ivadomed', 'version_.txt')
 with open(path_version) as f:
     version = f.read().strip()
 
